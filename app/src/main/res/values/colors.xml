@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red_light">#D96464</color>   <!-- Rojo Pastel -->
+    <color name="green_light">#73E673</color> <!-- Verde Pastel -->
+    <color name="yellow_light">#EDED81</color> <!-- Amarillo Pastel -->
+    <color name="blue_light">#7979FA</color>   <!-- Azul Pastel -->
+    <color name="red">#FF0000</color>          <!-- Rojo -->
+    <color name="green">#008000</color>        <!-- Verde -->
+    <color name="yellow">#FFFF00</color>       <!-- Amarillo -->
+    <color name="blue">#0000FF</color>         <!-- Azul -->
+</resources>

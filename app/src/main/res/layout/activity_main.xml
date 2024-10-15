@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Texto de instrucciones o puntuación -->
+    <TextView
+        android:id="@+id/tv_instructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simon Dice"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="64dp" />
+
+    <!-- GridLayout para los botones de colores -->
+    <GridLayout
+        android:id="@+id/grid_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:rowCount="2"
+        android:columnCount="2"
+        android:layout_marginBottom="48dp">
+
+        <!-- Botón Rojo -->
+        <ImageView
+            android:id="@+id/red_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="#FFA07A"
+            android:src="@drawable/red_circle"
+            android:scaleType="centerCrop" />
+
+        <!-- Botón Verde -->
+        <ImageView
+            android:id="@+id/green_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="#90EE90"
+            android:src="@drawable/green_circle"
+            android:scaleType="centerCrop" />
+
+        <!-- Botón Amarillo -->
+        <ImageView
+            android:id="@+id/yellow_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="#FFFACD"
+            android:src="@drawable/yellow_circle"
+            android:scaleType="centerCrop" />
+
+        <!-- Botón Azul -->
+        <ImageView
+            android:id="@+id/blue_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="#ADD8E6"
+            android:src="@drawable/blue_circle"
+            android:scaleType="centerCrop" />
+    </GridLayout>
+
+    <!-- Botón "Comenzar" -->
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLAY"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:padding="16dp" />
+</LinearLayout>
+
